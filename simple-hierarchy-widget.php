@@ -3,7 +3,7 @@
  * Plugin Name: Simple Page Hierarchy Widget
  * Plugin URI: http://joshmallard.com
  * Description: Adds a simple page hierarchy widget. If it doesn't do what you want out of the box, this plugin isn't for you. 
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Josh Mallard
  * Author URI: http://joshmallard.com
  * Text Domain: simple-page-hierarchy
