@@ -7,7 +7,8 @@ global $post;
 
 $page_id = get_the_ID(); 
 $args = array(
-	'post_parent' => $page_id
+	'post_parent' => $page_id,
+	'post_type' => 'page'
 );
 
 $parents = get_post_ancestors( $page_id );
@@ -41,7 +42,8 @@ if ( $parents || $children ) {
 		$widget_title = '<a href="' . get_permalink( $top_parent ) . '">' . get_the_title( $top_parent ) . '</a>';
 		
 		$args = array(
-			'post_parent' => $top_parent
+			'post_parent' => $top_parent,
+			'post_type' => 'page'
 		);
 		
 		$children = get_children( $args );
@@ -76,7 +78,8 @@ if ( $parents || $children ) {
 		$widget_title = '<a href="' . get_permalink( $top_parent ) . '">' . get_the_title( $top_parent ) . '</a>';
 		
 		$args = array(
-			'post_parent' => $top_parent
+			'post_parent' => $top_parent,
+			'post_type' => 'page'
 		);
 		
 		$children = get_children( $args );
