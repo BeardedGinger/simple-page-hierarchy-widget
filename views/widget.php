@@ -91,7 +91,8 @@ if ( $parents || $children ) {
 				$widget_page_hierarchy .= '<ul class="submenu">';
 				
 				$args = array(
-					'post_parent' => $child->ID
+					'post_parent' => $child->ID,
+					'post_type' => 'page'
 				);
 				
 				$grandchildren = get_children( $args );
