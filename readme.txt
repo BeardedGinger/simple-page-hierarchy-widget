@@ -4,7 +4,7 @@ Donate link: http://joshmallard.com
 Tags: widgets, heirarchy, pages, parent, child, grandchild
 Requires at least: 3.6
 Tested up to: 3.8.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,7 +55,7 @@ Test it out, if it doesn’t work like you want out of the box, this plugin isn�
 
 == Changelog ==
 
-= 1.0.2 =
+= 1.0.3 =
 * Limited query to ‘page’ post type
 
 = 1.0.0 =
