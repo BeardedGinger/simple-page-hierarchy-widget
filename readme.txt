@@ -55,6 +55,9 @@ Test it out, if it doesn’t work like you want out of the box, this plugin isn�
 
 == Changelog ==
 
+= 1.0.2 =
+* Limited query to ‘page’ post type
+
 = 1.0.0 =
 * Initial Commit
 
